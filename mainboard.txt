@@ -1,0 +1,57 @@
+Các dòng mainboard ,cpu đời mới từ pentium D trở về sau
+MainBoard(bo mạch chủ )
+1.Định nghĩa :
+Thuật ngữ Bo mạch chủ thường dùng nhiều nhất trong ngành công nghiệp máy tính nói chung như một từ dành riêng
+, mặc dù có rất nhiều thiết bị khác cũng có thể có Bảng mạch chính được gọi là "bo mạch chủ".
+Bo mạch chủ được ví như xương sống của con người , nó liên kết tất cả các thành phần máy tính khác để tạo nên một bộ máy tính
+2.Các thiết bị thường có mặt trên bo mạnh chủ:
+CPU(Bội vi xử lý )
+Bộ nhớ (RAM)
+Chipset
+ROM
+Các khe cắm mở rộng cho phép kết nối các thiết bị ngoại vi như ổ đĩa ,card màn hình ,card mạng ,card âm thanh thông qua bus mở rộng
+Các cổng kết nối như VGA/HDMI,USB,...
+Đầu nối nguồn máy tính
+3.Cấu trúc bo mạch chủ:
+3.1:Cấu trúc sử dụng CPU của hãng INTEL:
+CPU kết nối với Chipset cầu bắc (North Bridge), tại đây chipset cầu bắc giao tiếp với RAM và bo mạch đồ hoạ. Nói chung, cấu trúc máy tính cá nhân dùng bộ xử lý Intel đến thời điểm năm 2007 CPU sử dụng RAM thông qua chipset cầu bắc. Chipset cầu bắc được nối với chipset cầu nam thông qua bus nội bộ.
+Do tính chất làm việc "nặng nhọc" của chipset cầu bắc nên chúng thường toả nhiều nhiệt, bo mạch chủ thường có các tản nhiệt cho chúng bằng các hình thức khác nhau.
+Chipset cầu nam nối với các bộ phận còn lại, bao gồm các thiết bị có tính năng nhập/xuất (I/O) của máy tính bao gồm: các khe mở rộng bằng bus PCI, ổ cứng, ổ quang, USB, Ethernet..
+3.2:Cấu trúc sử dụng CPU của hẵng AMD:
+Về cơ bản, cấu trúc bo mạch chủ sử dụng CPU của hãng AMD giống như cấu trúc của bo mạch chủ sử dụng CPU của hãng Intel. 
+AMD cũng như nhiều hãng khác đều chưa đưa ra định hướng riêng của mình mà phải theo cấu trúc của Intel bởi sự phát triển của máy tính cá nhân ngay từ thời điểm sơ khai đã phát triển theo cấu trúc nền tảng của các hãng IBM - Intel. 
+Phần này chỉ nói ra những sự khác biệt nhỏ trong cấu trúc bo mạch chủ sử dụng CPU của AMD so với bo mạch chủ sử dụng CPU của hãng Intel: về một số cấu trúc bo mạch chủ cho bộ xử lý AMD có thể cho phép CPU giao tiếp trực tiếp với RAM mà điều này cải thiện đáng kể sự "thắt cổ chai" thường thấy ở cấu trúc bo mạch chủ sử dụng CPU của hãng Intel. 
+Với thế hệ chipset X58/P5x/H5x, Intel đã giảm tải cho chíp cầu bắc bằng việc chuyển các bus giao tiếp với Ram và VGA lên CPU quản lý.
+4.Các chuẩn kích thước của bo mạch chủ :
+Tiêu chuẩn cổ điển trước đây thông dụng bao gồm:
+
+Baby-AT: kích thước chuẩn 216 mm × 254–330 mm
+Full-size AT: 305 mm × 279–330 mm
+WTX: 355.6 mm × 425.4 mm
+ITX: 215 mm x 191 mm
+LPX: kích thước chuẩn 229 mm × 279–330 mm
+Hiện nay đối với các dòng bo mạch mới các các kích cỡ main chuẩn hiện tại bao gồm:
+
+BTX: 325 x 267 mm
+microBTX: 264 x 267 mm
+ATX: 305 x 244 mm
+pico BTX: 203 x 267 mm
+mini ATX: 284 x 208 mm
+flexATX: 229 x 191 mm
+microATX: 244 x 244 mm
+5.Các công ty sản xuất :
+Supermicro
+ASUS
+Gigabyte
+MSI
+Asrock
+Biostar
+6.Những lưu ý khi lựa chọn mainboard để sử dụng (Do bản thân tự đúc kết lại):
+1)Về giá cả , tùy theo chức năng mainboard sỡ hữu mà giá trị cao thấp khác nhau , tùy theo nhu cầu tài chính bản thân muốn build một máy tính trong tầm giá bao nhiêu mà lựa chọn main phù hợp
+2)Mainboard có nhiều kích thước khác nhau (ATX phổ biến nhất hiện nay) , có cả main dual core phục vụ cho những công việc nặng như quản lí sever , đồ họa ,AI nhân tạo, nên tùy theo mục tiêu mà lựa chọn
+3)Chipset khá quan trọng vì là cầu nối của đĩa cứng và card rời với CPU,tích hợp đồ họa,âm thanh ,...nên hãy chọn chipset tốt nhất trong tầm giá và nhu cầu mong muốn
+4)Socket của CPU và mainboard phải giống nhau
+5)Tìm hiểu kĩ xem mainboard hỗ trợ tối đa bao nhiêu Ram , bus Ram hỗ trợ, card đồ họa hỗ trợ , main có khe SSD m2 ko .
+
+7.Cách đọc tên của mainboard để biết sơ lược thông tin :
+8.Một số mainboard của các hãng hiện nay :
