@@ -1,4 +1,4 @@
-package Lap3;
+package com.lequanghieu2008110027.Lab3;
 import java.util.Scanner;
 
 
@@ -61,6 +61,37 @@ public class bai3MangSoNguyen {
             
              }
 
+             //tim so nho nhat
+             timMin(array,n);
+
+             //tinh trung binh cong cac so nguyen chia het cho 3
+             trungBinhCong(array, n);
+            
+
       
+}
+// ham tim so nho nhat
+static void timMin(int a[], int n){
+    int min = a[0];
+    for(int m = 1; m < n; m++){
+        if(min > a[m]){
+            min = a[m];
+        }
+    }
+    System.out.println("\nPhần tử có giá trị nhỏ nhất trong mảng là: " + min);
+}
+
+// ham tinh trung binh cong cac phan tu chia het cho 3
+static void trungBinhCong(int a[], int n){
+    int tong = 0;
+    int dem=0;
+    for(int k = 0; k < n; k++){
+        if(a[k] % 3 == 0){
+            tong += a[k];
+            dem++;
+        }
+    }
+    double tongTB = tong/dem;
+    System.out.printf("Trung bình cộng các phần tử chia hết cho 3 là: %.2f", tongTB);
 }
 }
