@@ -1,9 +1,10 @@
 #include<iostream>
+#include <string.h>
 using namespace std;
 
 //Dang nhap va Dang Ki
 struct thanhVien{
-	int taiKhoan;
+	char taiKhoan[20];
 	int matKhau;
 };
 thanhVien dk;
@@ -59,10 +60,11 @@ void dangKi(){
 	
 	cout<<"Nhap mat khau: ";
 	cin>>dk.matKhau;
-
+	cout<<"******************************"<<endl;
 	cout<<"Tai khoan tao thanh cong"<<endl;
 	cout<<"Tai Khoan: "<<dk.taiKhoan<<endl;
 	cout<<"Mat Khau: "<<dk.matKhau<<endl;
+	cout<<"******************************"<<endl;
 }
 
 void dangNhap(){
@@ -71,7 +73,7 @@ void dangNhap(){
 	cout<<"Nhap Mat khau: ";
 	cin>>dn.matKhau;
 	
-	if(dn.taiKhoan==dk.taiKhoan && dn.matKhau==dk.matKhau ) 
+	if(strcmp(dn.taiKhoan,dk.taiKhoan) == 0 && dn.matKhau==dk.matKhau) 
 		return menu();
 	else 
 		cout<<"Sai tai khoan hoac mat khau";
